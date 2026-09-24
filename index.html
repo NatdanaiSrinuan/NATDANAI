@@ -9,7 +9,7 @@
             margin: 0;
             padding: 0;
             height: 100%;
-            overflow: hidden;
+            overflow: hidden; /* ป้องกันไม่ให้มีแถบเลื่อนถ้าไม่จำเป็น */
         }
         iframe {
             width: 100%;
@@ -19,6 +19,7 @@
     </style>
 </head>
 <body>
+    <!-- แก้ชื่อไฟล์ PDF ให้ตรงกับของคุณ และเพิ่ม #toolbar=0 ต่อท้าย -->
     <iframe src="Resume.pdf#toolbar=0&navpanes=0&scrollbar=0" 
             style="width: 100%; height: 100%; border: none;">
     </iframe>
